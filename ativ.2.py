@@ -1,8 +1,11 @@
+# questão 4.0
 def verificar_comprimento(a, b):
     if len(a) != len(b):
         raise Exception("Erro: as strings têm comprimentos diferentes.")
-
+    
     print("As strings têm o mesmo comprimento.")
+
+
 
 def main():
     try:
@@ -13,3 +16,5 @@ def main():
         print(erro)
 
 main()
+
+# corrigindo commit

@@ -1,3 +1,4 @@
+#questão 1
 class Numeroimparerror(Exception):
     def __init__(self,numero):  
         super().__init__(f"O número {numero} é ímpar. Por favor, digite um número par.")
@@ -7,6 +8,8 @@ def verificar_par(numero):
         raise Numeroimparerror(numero)
     else:
         print(f"O número {numero} é par.")
+
+        
         
 def main():
     while True:
@@ -21,4 +24,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+  
+  #corrigindo commit  
 

@@ -1,7 +1,10 @@
+# questão 2.0
 def verificar_maiusculas(nome):
     if not nome.isupper():
         raise ValueError("Erro: o nome deve conter apenas letras maiúsculas.")
     print(f"Bem-vindo ao jogo, {nome}!")
+
+
 
 def main():
     while True:
@@ -15,3 +18,5 @@ def main():
             print("Tente novamente.\n")
 
 main()
+
+# corrigindo commit
